@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Us</h1>
+    <p>If you have any questions or would like to get in touch with us, please use the contact form below:</p>
+
+    <form action="your-server-url" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+            <option value="saying_hi">Saying Hi</option>
+            <option value="looking_for_contractor">Looking for a Contractor</option>
+            <option value="interested_in_interview">Interested in an Interview</option>
+        </select><br><br>
+
+        <label for="comment">Comments:</label><br>
+        <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
 
