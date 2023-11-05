@@ -48,3 +48,11 @@ article {
 .position-demo {
     background: blue;
 }
+
+.img-container {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-left: 10px;
+}
