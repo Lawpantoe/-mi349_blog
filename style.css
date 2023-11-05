@@ -33,3 +33,18 @@ p {
 article {
     border-bottom: 1px solid #000;
 }
+
+.sticky.position-demo {
+    color: white;
+    padding: 20px;
+}
+
+.sticky {
+    background: green;
+    position: sticky;
+    top: 0;
+}
+
+.position-demo {
+    background: blue;
+}
