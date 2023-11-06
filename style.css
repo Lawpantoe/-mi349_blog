@@ -1,58 +1,72 @@
-html{
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background: #e3e3e3;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    padding: 40px;
-    color: #242424;
-    border-top: 10px solid #242424;
-    background: #fff;
-}
-
-h1 {
-    font-size: 3em;
-    margin: 0;
+h1, h2 {
+    margin: 10px;
 }
 
 p {
-    line-height: 1.4em;
-    width: 200px;
-    
+    margin: 10px;
 }
 
-#blog {
-    border-top: 1px dotted #ccc;
-}
-
-.blog-post {
-    border-bottom: 1px dotted #ccc;
-}
-
-article {
-    border-bottom: 1px solid #000;
-}
-
-.sticky.position-demo {
-    color: white;
-    padding: 20px;
-}
-
-.sticky {
-    background: green;
+/* Sticky Sidebar */
+nav {
     position: sticky;
     top: 0;
+    background: #242424;
+    color: white;
 }
 
-.position-demo {
-    background: blue;
+/* Two-column Flexbox Layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
 }
 
+/* Three-column Flexbox Layout */
+.main-content-three-columns {
+    display: flex;
+}
+
+.side-column {
+    flex: 1;
+    margin: 10px;
+}
+
+.middle-column {
+    flex: 3;
+    margin: 10px;
+}
+
+/* Left or Right Floated Image with Caption */
 .img-container {
-    background: blue;
-    height: 50px;
-    width: 50px;
     float: right;
-    margin-left: 10px;
+    margin: 10px;
 }
+
+/* Multi-column Form Layout using Flexbox */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Additional Styles */
+ul {
+    list-style: none;
+}
+
+/* Global Layout */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Validate HTML */
+/* Ensure your HTML is valid. */
+
